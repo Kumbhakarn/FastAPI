@@ -1,0 +1,2 @@
+fastapi
+# pip install fastapi uvicorn
