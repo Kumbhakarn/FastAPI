@@ -1,6 +1,7 @@
 # Contains only API endpoints
 from fastapi import FastAPI, HTTPException
-from BuildingAPIs.models import Employee
+# from BuildingAPIs.models import Employee
+from BuildingAPIs.models_val import Employee
 from typing import List
 
 # variableName # VariableType # VariableValue
