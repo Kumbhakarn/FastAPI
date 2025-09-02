@@ -1,2 +1,4 @@
 # pip install fastapi uvicorn
 fastapi
+# pip install pydantic
+pydantic
