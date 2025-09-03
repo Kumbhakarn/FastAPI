@@ -40,8 +40,6 @@ def update_employee(emp_id:int, updated_employee:Employee):
             return updated_employee
     raise HTTPException(status_code=404, detail='Employee not Found')
 
-
-
 # 5. Delete an Employee
 @app.delete('/delete_employee/{emp_id}')
 def delete_employee(emp_id:int):
