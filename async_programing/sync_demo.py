@@ -1,3 +1,4 @@
+# Synchronous Programing Example
 import time
 from timeit import default_timer as timer
 
