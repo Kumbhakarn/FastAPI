@@ -2,3 +2,5 @@
 fastapi
 # pip install pydantic
 pydantic
+# pip install SQLAlchemy
+SQLAlchemy
