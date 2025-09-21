@@ -4,4 +4,7 @@ fastapi
 pydantic
 # pip install SQLAlchemy
 SQLAlchemy
-pip install pydantic[email]
+pydantic[email]
+joblib
+pandas
+scikit-learn
