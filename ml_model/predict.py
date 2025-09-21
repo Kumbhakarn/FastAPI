@@ -15,7 +15,7 @@ Why important?
 - Provides reusable functions (`make_predictions`, `make_batch_predictions`)
   that can be imported by the FastAPI app or other scripts.
 
-Author: [Your Name]
+
 """
 
 import joblib
