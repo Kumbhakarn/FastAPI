@@ -30,7 +30,7 @@ Example Output (JSON):
     "predicted_price": 452100.75
 }
 
-Author: [Your Name]
+
 """
 
 from pydantic import BaseModel, StrictInt, Field
