@@ -5,7 +5,6 @@ This file serves as the entry point for the ML prediction API.
 It exposes REST endpoints to interact with a trained ML model,
 supporting both single predictions and batch predictions.
 
-Author: [Your Name]
 """
 
 from fastapi import FastAPI
