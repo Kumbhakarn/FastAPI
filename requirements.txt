@@ -8,3 +8,12 @@ pydantic[email]
 joblib
 pandas
 scikit-learn
+# FastAPI route (likely /token) is using Form or OAuth2PasswordRequestForm, 
+# and FastAPI requires the python-multipart package to parse form data.
+python-multipart
+authlib
+passlib
+bcrypt
+pydantic-settings
+pytest
+pip install "fastapi[all]" # That will bring in httpx, jinja2, python-multipart, etc. (useful for forms, templates, etc.).
