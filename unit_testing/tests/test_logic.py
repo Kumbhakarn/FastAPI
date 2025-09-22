@@ -1,0 +1,2 @@
+import pytest
+from unit_testing.app.logic import is_eligible_for_loan
